@@ -1,0 +1,8 @@
+﻿@model PartialView01.Models.HomeViewModel
+<div>
+    <sample itemid="@nameof(Model.Item01)">
+        <label asp-for="Item01"></label>
+        <sample1><select asp-for="Item01" asp-items="Model.Item01s"></select></sample1>
+        <sample2><label>@Model.Item01</label></sample2>
+    </sample>
+</div>

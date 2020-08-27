@@ -1,0 +1,11 @@
+﻿@model PartialViewsSample.Models.HomeViewModel
+<div>
+    <sample itemid="@nameof(Model.Item01)" class="sample1" style="color:blue;">
+        <div1>
+            <select asp-for="Item01"/>
+        </div1>
+        <div2>
+            <p>@Model.Item01</p>
+        </div2>
+    </sample>
+</div>

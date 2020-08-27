@@ -1,0 +1,4 @@
+﻿@model PartialView02.TagHelpers.SampleTagHelper
+<div class="sample @Model.AppendClass" @Model.AttributeStr>
+    @Html.Raw(Model.InnerHtml)
+</div>
